@@ -44,4 +44,4 @@ The `server` module contains the settings for the server. Here the AFK channel f
 
 ## Deployment
 
-Deployment is handled by the **Terraform** bot, which should be added as a member to the server. The bot must be assigned to an admininistrator role that is listed above any roles that it is managing. If this is not the case then it will not have sufficient permissions to deploy roles.
+Deployment is handled by the **Terraform** bot, which should be added as a member to the server. The bot must be assigned to an administrator role that is listed above any roles that it is managing. If this is not the case then it will not have sufficient permissions to deploy roles.
