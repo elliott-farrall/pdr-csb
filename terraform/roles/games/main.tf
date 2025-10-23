@@ -97,3 +97,13 @@ module "peak" {
   role_color    = "#3498DB" # Blue
   role_position = 16
 }
+
+module "aoe2" {
+  source = "./template"
+
+  server_id = var.server_id
+
+  game_name     = "aoe2"
+  role_color    = "#F5A802" # Gold
+  role_position = 17
+}
